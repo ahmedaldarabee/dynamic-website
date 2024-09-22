@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new intern | ahmed nayel</title>
+
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- to do override element in all of browsers ... -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- font awesome connect -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <link rel="icon" href="imgs/logo.png">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- header section -->
+        <div class="header-area flex-between ">
+
+            <div class="logo">ahmed nayel</div>
+
+            <div class="links">
+                <i class="fa-solid fa-list"></i>
+                <ul class="flex-center">
+                    <li> <a href="#about-us" class="active"> about </a></li>
+                    <li> <a href="#our-skills"> skills</a></li>
+                    <li> <a href="#our-gallery"> gallery</a></li>
+                    <li> <a href="#our-feature"> features</a></li>
+                    <li> <a href="#our-timeline"> timeline</a></li>
+                    <li> <a href="#our-feedback"> feedback</a></li>
+                    <li> <a href="#contactus"> contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="progress-bar"></div>
+        </section>
+
+        <section>
+            <div class="loading flex-center ">
+                <span>loading</span>
+            </div>
+        </section>
+
+        <section>
+            <div class="container setting-section">
+
+                <i class="fa-solid fa-gear config-icon" title="click me"></i>
+    
+                <div class="info-container">
+                    <span>hello friends!</span>
+                    
+                    <div class="title">
+                        <p>configuration page: </p>
+                    </div>
+    
+                    <div class="options-box">
+                        <h4>color list </h4>
+                        <ul class="list-color">
+                            <li class="active" data-color="#F49407"></li>
+                            <li data-color="#199fdb"></li>
+                            <li data-color="#00897b"></li>
+                            <li data-color="#4caf50"></li>
+                            <li data-color="#607d8b"></li>
+                        </ul>
+                    </div>
+    
+                    <div class="options-box">
+                        <h4>background image</h4>
+                        <div class="random-option">
+                            <span class="yes active" data-background="yes" >yes</span>
+                            <span class="no" data-background="no" >no</span>
+                        </div>
+                    </div>
+    
+                    <div class="options-box">
+                        <h4>bullets bar</h4>
+                        <div class="bullets-setting">
+                            <span class="yes active" data-bull="show">yes</span>
+                            <span class="no" data-bull="hidden" >no</span>
+                        </div>
+                    </div>
+    
+                    <button class="resetBtn">default configs</button>
+    
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="landing-page">
+                <div class="overlay"></div>
+            
+                <!-- agency information -->
+                <div class="intro-text">
+                    <h3>welcome in <span> exact solution </span> agency</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eius maiores autem nobis iusto ipsa!</p>
+                </div>
+    
+            </div>
+        </section>
+
+        <section>
+            <!-- accessor -->
+            <div class="nav-bullets">
+                <div class="bullets" data-section="#about-us">
+                    <div class="tooltip">about us</div>
+                </div>
+                <div class="bullets" data-section="#our-skills">
+                    <div class="tooltip">our skills</div>
+                </div>
+                <div class="bullets" data-section="#our-gallery">
+                    <div class="tooltip">our gallery</div>
+                </div>
+                <div class="bullets" data-section="#our-features">
+                    <div class="tooltip">our feature</div>
+                </div>
+                <div class="bullets" data-section="#our-feedback">
+                    <div class="tooltip">our feedback</div>
+                </div>
+                <div class="bullets" data-section="#our-timeline">
+                    <div class="tooltip">time line</div>
+                </div>
+                <div class="bullets" data-section="#contactus">
+                    <div class="tooltip">contact us</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-us">
+            <div class="container">
+                <div class="about-us flex-center ">
+
+                    <div class="text-info">
+                        <h3>about us </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, sed exercitationem aspernatur nisi corporis laboriosam dolor voluptatum laudantium consectetur aliquam.</p>
+                    </div>
+    
+                    <div class="img-box">
+                        <img src="imgs/about.png" alt="about us image">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section id="our-skills">
+            <div class="skills">
+                <div class="container">
+
+                    <div class="title">
+                        <h3>our skills</h3>
+                    </div>
+
+                    <!-- .skills-boxes .box-->
+                    <div class="skills-boxes">
+                        
+                        <div class="box flex-center">
+                            <div class="skills-name">html</div>
+                            <div class="skills-progress">
+                                <span data-progress="50%"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="box flex-center">
+                            <div class="skills-name">css</div>
+                            <div class="skills-progress">
+                                <span data-progress="70%"></span>
+                            </div>
+                        </div>
+
+                        <div class="box flex-center">
+                            <div class="skills-name">javaScript</div>
+                            <div class="skills-progress">
+                                <span data-progress="90%"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="box flex-center">
+                            <div class="skills-name">tailwind</div>
+                            <div class="skills-progress">
+                                <span data-progress="80%"></span>
+                            </div>
+                        </div>
+
+                        <div class="box flex-center">
+                            <div class="skills-name">bootstrap</div>
+                            <div class="skills-progress">
+                                <span data-progress="60%"></span>
+                            </div>
+                        </div>
+
+                        <div class="box flex-center">
+                            <div class="skills-name">react js</div>
+                            <div class="skills-progress">
+                                <span data-progress="20%"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-gallery">
+            <div class="gallery">
+                <div class="container">
+
+                    <div class="title">
+                        <h3>our gallery</h3>
+                    </div>
+
+                    <div class="gallery-boxes">
+                        <div class="box">
+                            <img src="imgs/prog-01.jpg" alt="programming image">
+                        </div>
+                        <div class="box">
+                            <img src="imgs/prog-02.jpg" alt="development image">
+                        </div>
+                        <div class="box">
+                            <img src="imgs/prog-03.jpg" alt="implementation image">
+                        </div>
+                        <div class="box">
+                            <img src="imgs/prog-04.jpg" alt="investment image X1">
+                        </div>
+                        <div class="box">
+                            <img src="imgs/prog-05.jpg" alt="media image">
+                        </div>
+                        <div class="box">
+                            <img src="imgs/prog-06.jpg" alt="world image">
+                        </div>
+                        <div class="box">
+                            <img src="imgs/prog-07.jpg" alt="investment image X2">
+                        </div>
+                        <div class="box">
+                            <img src="imgs/prog-08.jpg" alt="networking image">
+                        </div>
+                        <div class="box">
+                            <img src="imgs/prog-09.jpg" alt="investment image X3">
+                        </div>
+                        <div class="box">
+                            <img src="imgs/prog-10.jpg" alt="stocks image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-timeline">
+            <div class="timeline">
+                <div class="container">
+                    <div class="timeline-content">
+
+                        <div class="year">2022</div>
+
+                        <div class="left-section">
+                            <div class="content">
+                                <h3>frontend trying</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia rerum impedit velit molestiae nemo sunt iste soluta iure, expedita nulla facere assumenda aperiam nostrum dolor possimus obcaecati vero autem corrupti!</p>
+                            </div>
+                        </div>
+
+                        <!-- clear be as remove element -->
+                        <div class="clear"></div>
+
+                        <div class="right-section">
+                            <div class="content">
+                                <h3>frontend building experience</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat facilis pariatur eum consectetur quis voluptatum ducimus culpa, quaerat nihil est quia modi ipsum maxime eaque illo tenetur? Placeat, quas odit.</p>
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="year">2023</div>
+
+                        <div class="left-section">
+                            <div class="content">
+                                <h3>backend trying</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia rerum impedit velit molestiae nemo sunt iste soluta iure, expedita nulla facere assumenda aperiam nostrum dolor possimus obcaecati vero autem corrupti!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="clear"></div>
+
+                        <div class="left-section">
+                            <div class="content">
+                                <h3>backend building experience</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia rerum impedit velit molestiae nemo sunt iste soluta iure, expedita nulla facere assumenda aperiam nostrum dolor possimus obcaecati vero autem corrupti!</p>
+                            </div>
+                        </div>
+                        
+                        <div class="clear"></div>
+
+                        <div class="left-section">
+                            <div class="content">
+                                <h3>backend expert</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia rerum impedit velit molestiae nemo sunt iste soluta iure, expedita nulla facere assumenda aperiam nostrum dolor possimus obcaecati vero autem corrupti!</p>
+                            </div>
+                        </div>
+                        
+
+                        <div class="clear"></div>
+                        <div class="year">2023</div>
+                        <div class="right-section">
+                            <div class="content">
+                                <h3>full stack intern</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia rerum impedit velit molestiae nemo sunt iste soluta iure, expedita nulla facere assumenda aperiam nostrum dolor possimus obcaecati vero autem corrupti!</p>
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="right-section">
+                            <div class="content">
+                                <h3>full stack building experience</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia rerum impedit velit molestiae nemo sunt iste soluta iure, expedita nulla facere assumenda aperiam nostrum dolor possimus obcaecati vero autem corrupti!</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-feature">
+            <div class="features">
+                <div class="container">
+                    <div class="our-features">
+                        <div class="title">
+                            <h3>our features</h3>
+                        </div>
+
+                        <div class="all-features">
+
+                            <div class="box">
+                                <div class="img">
+                                    <img src="imgs/feat-01.png" alt="our features">
+                                </div>
+
+                                <div class="text-content">
+                                    <h3>development</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur pariatur consequatur sunt deleniti cupiditate nihil natus cumque fugiat illum.</p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="img">
+                                    <img src="imgs/feat-02.png" alt="our features">
+                                </div>
+
+                                <div class="text-content">
+                                    <h3>consulting</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur pariatur consequatur sunt deleniti cupiditate nihil natus cumque fugiat illum.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="box">
+                                <div class="img">
+                                    <img src="imgs/feat-03.png" alt="our features">
+                                </div>
+
+                                <div class="text-content">
+                                    <h3>quality assurent</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur pariatur consequatur sunt deleniti cupiditate nihil natus cumque fugiat illum.</p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="img">
+                                    <img src="imgs/feat-04.png" alt="our features">
+                                </div>
+
+                                <div class="text-content">
+                                    <h3>software analysis</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur pariatur consequatur sunt deleniti cupiditate nihil natus cumque fugiat illum.</p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="img">
+                                    <img src="imgs/feat-05.png" alt="our features">
+                                </div>
+
+                                <div class="text-content">
+                                    <h3>software design</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur pariatur consequatur sunt deleniti cupiditate nihil natus cumque fugiat illum.</p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="img">
+                                    <img src="imgs/feat-06.png" alt="our features">
+                                </div>
+
+                                <div class="text-content">
+                                    <h3>software maintenance</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aspernatur pariatur consequatur sunt deleniti cupiditate nihil natus cumque fugiat illum.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-feedback">
+            <div class="feedback">
+                <div class="container">
+                    <div class="feedback-content">
+                        <div class="title-part">
+                            <h3>our feedback</h3>
+                        </div>
+
+                        <div class="all-feedback">
+                            <div class="box">
+
+    
+                                <div class="img-of-user">
+                                    <img src="imgs/feedback-01.jpg" alt="user image">
+                                    
+                                    <div class="info-of-user">
+                                        <h3>osama mohammed</h3>
+                                        <p>full stack web developer</p>
+                                    </div>
+                                </div>
+
+                                <div class="content-text">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi corporis a reiciendis recusandae maxime eligendi quidem nulla eveniet nostrum illo vel soluta, voluptatum deserunt ipsam quas incidunt placeat excepturi fuga.</p>
+                                </div>
+    
+                            </div>
+                            <div class="box">
+                                <div class="img-of-user">
+                                    <img src="imgs/feedback-02.jpg" alt="user image">
+                                    
+                                    <div class="info-of-user">
+                                        <h3>ahmed nayel</h3>
+                                        <p>full stack web developer</p>
+                                    </div>
+                                </div>
+
+                                <div class="content-text">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi corporis a reiciendis recusandae maxime eligendi quidem nulla eveniet nostrum illo vel soluta, voluptatum deserunt ipsam quas incidunt placeat excepturi fuga.</p>
+                                </div>
+    
+                            </div>
+                            <div class="box">
+    
+                                <div class="img-of-user">
+                                    <img src="imgs/feedback-03.jpg" alt="user image">
+                                    <div class="info-of-user">
+                                        <h3>moath ali</h3>
+                                        <p>frontend web developer</p>
+                                    </div>
+                                </div>
+
+                                <div class="content-text">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi corporis a reiciendis recusandae maxime eligendi quidem nulla eveniet nostrum illo vel soluta, voluptatum deserunt ipsam quas incidunt placeat excepturi fuga.</p>
+                                </div>
+    
+                            </div>
+                           
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+
+        <section id="contactus">
+            <div class="contact-us">
+                <div class="container">
+                    <form action="index.html">                            
+                        <div class="all-content">
+                            <div class="left">
+                                <input type="text" placeholder="subject">
+                                <input type="text" placeholder="first name">
+                                <input type="text" placeholder="last name">
+                                <input type="email" placeholder="email">
+                            </div>
+                            <div class="right">
+                                <textarea placeholder="your needs"></textarea>
+                                <input type="submit" value="send">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="all-content flex-between">
+                <div class="info">
+                    Created by ahmed nayel al darabee &copy; | 2024
+                </div>
+                <div class="media">
+                    <a href="https://www.facebook.com/Darabi78" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmed-al-darabee-4928ba250/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ahmedaldarabee" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                    <a href="https://ahmed-aldarabee.netlify.app" target="_blank"><i class="fa-solid fa-user-tie"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html>
